@@ -4832,12 +4832,12 @@ var Inetchatvue_type_template_id_3e244860_staticRenderFns = []
 
 // CONCATENATED MODULE: ./src/components/Inetchat.vue?vue&type=template&id=3e244860&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"667f35ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatCard.vue?vue&type=template&id=2809dc16&
-var InetchatCardvue_type_template_id_2809dc16_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"ic-card"},[_c('div',{staticClass:"ic-card-title",class:{'ic-bg-error': _vm.user && _vm.user.banned}},[_c('div',{staticClass:"ic-w20"},[_c('img',{staticClass:"ic-avatar",attrs:{"src":'http://localhost:3001/' + _vm.config.avatar,"alt":"Avatar"}})]),_c('div',{staticClass:"ic-w60"},[(_vm.user && _vm.user.banned)?_c('span',{staticClass:"ic-f14"},[_c('i',{staticClass:"fas fa-ban"})]):_vm._e(),_vm._v(" "+_vm._s(_vm.user ? _vm.user.name : _vm.config.name)+" "),(_vm.user)?_c('div',{staticClass:"ic-f14"},[_vm._v(" "+_vm._s(_vm.user.email)+" ")]):_vm._e()]),_vm._m(0)]),_c('div',{staticClass:"ic-card-text ic-p2 scroll scroll-chat"},[(_vm.image)?_c('div',{staticClass:"show-image",class:{ image: true }},[_c('img',{staticClass:"ic-img ic-m1",attrs:{"src":_vm.image,"alt":""}})]):_vm._e(),(_vm.isTyping)?_c('div',{staticClass:"ic-message-r"},[_c('div',{staticClass:"ic-message-r-title"},[_c('i',{staticClass:"fas fa-square ic-message-r-title-icon"}),_vm._v(" "+_vm._s(_vm.messages[0].user.name)+" ")]),_vm._m(1)]):_vm._e(),(_vm.loading)?_c('div',{staticClass:"lds-ring "},[_c('div'),_c('div'),_c('div'),_c('div')]):_vm._l((_vm.messages),function(message){return _c('inetchat-message',{key:message._id,attrs:{"message":message}})})],2),_c('div',{staticClass:"ic-card-actions"},[_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.message),expression:"message"}],staticClass:"input ic-w80 ic-m1 scroll",staticStyle:{"resize":"none"},attrs:{"id":"textarea"},domProps:{"value":(_vm.message)},on:{"input":function($event){if($event.target.composing){ return; }_vm.message=$event.target.value}}}),_c('div',{staticClass:"ic-w10 ic-flex ic-align-center ic-justify-center"},[(!_vm.image)?_c('label',{staticClass:"btn display-inline"},[_c('i',{staticClass:"ic-file fa fa-paperclip ic-f20"}),_c('input',{attrs:{"type":"file","name":"image"},on:{"change":_vm.onChange}})]):_c('div',{on:{"click":_vm.removeFile}},[_c('i',{staticClass:"fa fa-times ic-file ic-f20"})])]),_c('button',{staticClass:"ic-button ic-w20 ic-m1",attrs:{"disabled":!_vm.message || !_vm.user},on:{"click":_vm.sendMessage}},[_c('i',{staticClass:"fa fa-paper-plane"})])])])])}
-var InetchatCardvue_type_template_id_2809dc16_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-w20"},[_c('img',{attrs:{"height":"40","src":__webpack_require__("b01b")}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-message-r-text"},[_c('div',{staticClass:"lds-ellipsis"},[_c('div'),_c('div'),_c('div'),_c('div')])])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"667f35ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatCard.vue?vue&type=template&id=dee8f802&
+var InetchatCardvue_type_template_id_dee8f802_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"ic-card"},[_c('div',{staticClass:"ic-card-title",class:{'ic-bg-error': _vm.user && _vm.config.pack.banning && _vm.user.banned}},[_c('div',{staticClass:"ic-w20"},[_c('img',{staticClass:"ic-avatar",attrs:{"src":'http://localhost:3001/' + _vm.config.avatar,"alt":"Avatar"}})]),_c('div',{staticClass:"ic-w60"},[(_vm.user && _vm.user.banned && _vm.config.pack.banning)?_c('span',{staticClass:"ic-f14"},[_c('i',{staticClass:"fas fa-ban"})]):_vm._e(),_vm._v(" "+_vm._s(_vm.user ? _vm.user.name : _vm.config.name)+" "),(_vm.user)?_c('div',{staticClass:"ic-f14"},[_vm._v(" "+_vm._s(_vm.user.email)+" ")]):_vm._e()]),_vm._m(0)]),_c('div',{staticClass:"ic-card-text ic-p2 scroll scroll-chat"},[(_vm.image)?_c('div',{staticClass:"ic-show-image",class:{ image: true }},[_c('img',{staticClass:"ic-img ic-m1",attrs:{"src":_vm.image,"alt":""}})]):_vm._e(),(_vm.isTyping)?_c('div',{staticClass:"ic-message-r"},[_c('div',{staticClass:"ic-message-r-title"},[_c('i',{staticClass:"fas fa-square ic-message-r-title-icon"}),_vm._v(" "+_vm._s(_vm.messages[0].user.name)+" ")]),_vm._m(1)]):_vm._e(),(_vm.loading)?_c('div',{staticClass:"lds-ring "},[_c('div'),_c('div'),_c('div'),_c('div')]):_vm._l((_vm.messages),function(message){return _c('inetchat-message',{key:message._id,attrs:{"message":message}})})],2),_c('div',{staticClass:"ic-card-actions"},[_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.message),expression:"message"}],staticClass:"input ic-w80 ic-m1 scroll",staticStyle:{"resize":"none"},attrs:{"id":"textarea"},domProps:{"value":(_vm.message)},on:{"input":function($event){if($event.target.composing){ return; }_vm.message=$event.target.value}}}),(_vm.config.pack.messaging != 'NF')?_c('div',{staticClass:"ic-w10 ic-flex ic-align-center ic-justify-center"},[(!_vm.image)?_c('label',{staticClass:"btn display-inline"},[_c('i',{staticClass:"ic-file fa fa-paperclip ic-f20"}),_c('input',{attrs:{"type":"file","name":"image"},on:{"change":_vm.onChange}})]):_c('div',{on:{"click":_vm.removeFile}},[_c('i',{staticClass:"fa fa-times ic-file ic-f20"})])]):_vm._e(),_c('button',{staticClass:"ic-button ic-w20 ic-m1",attrs:{"disabled":!_vm.message || !_vm.user},on:{"click":_vm.sendMessage}},[_c('i',{staticClass:"fa fa-paper-plane"})])])])])}
+var InetchatCardvue_type_template_id_dee8f802_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-w20"},[_c('img',{attrs:{"height":"40","src":__webpack_require__("b01b")}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-message-r-text"},[_c('div',{staticClass:"lds-ellipsis"},[_c('div'),_c('div'),_c('div'),_c('div')])])}]
 
 
-// CONCATENATED MODULE: ./src/components/InetchatCard.vue?vue&type=template&id=2809dc16&
+// CONCATENATED MODULE: ./src/components/InetchatCard.vue?vue&type=template&id=dee8f802&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"667f35ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatMessage.vue?vue&type=template&id=0a9beda2&
 var InetchatMessagevue_type_template_id_0a9beda2_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.message.type == 's')?_c('div',{staticClass:"ic-message-r"},[_c('div',{staticClass:"ic-message-r-title"},[_c('i',{staticClass:"fas fa-square ic-message-r-title-icon"}),_vm._v(" "+_vm._s(_vm.message.user.name)+" ")]),_c('div',{staticClass:"ic-message-r-text"},[(_vm.message.file)?_c('div',{class:{ image: true }},[_c('a',{attrs:{"href":'http://localhost:3000/' + _vm.message.file,"target":"_blank"}},[_c('img',{staticClass:"ic-img",attrs:{"src":'http://localhost:3000/' + _vm.message.file,"alt":""}})])]):_vm._e(),_vm._v(" "+_vm._s(_vm.message.message)+" ")]),_c('div',{staticClass:"ic-message-r-date"},[_vm._v(" "+_vm._s(_vm.dayjs(_vm.message.createdAt).format('DD/MM/YYYY HH:mm'))+" ")])]):_vm._e(),(_vm.message.type == 'r')?_c('div',{staticClass:"ic-message-l"},[_vm._m(0),_c('div',{staticClass:"ic-message-l-text"},[(_vm.message.file)?_c('div',{class:{ image: true }},[_c('a',{attrs:{"href":'http://localhost:3000/' + _vm.message.file,"target":"_blank"}},[_c('img',{staticClass:"ic-img",attrs:{"src":'http://localhost:3000/' + _vm.message.file,"alt":""}})])]):_vm._e(),_vm._v(" "+_vm._s(_vm.message.message)+" ")]),_c('div',{staticClass:"ic-message-l-date"},[_vm._v(" "+_vm._s(_vm.dayjs(_vm.message.createdAt).format('DD/MM/YYYY HH:mm'))+" ")])]):_vm._e()])}
@@ -5037,14 +5037,17 @@ var axios_default = /*#__PURE__*/__webpack_require__.n(axios);
           'Content-Type': 'multipart/form-data',
           db: this.config.db
         }
-      }).then(() => {
+      }).then(res => {
         this.message = '';
         this.image = '';
-        this.file = '';
+        this.file = ''; //Notify other user
+
         this.socket.emit('message', {
+          message: res.data,
           _id: this.user._id
-        });
-        this.getMessages();
+        }); //add Message
+
+        this.messages.unshift(res.data);
       }).catch(e => console.log(e));
     },
 
@@ -5097,7 +5100,7 @@ var axios_default = /*#__PURE__*/__webpack_require__.n(axios);
   mounted() {
     //Set listeners
     this.socket.on('message', user => {
-      if (user._id == this.user._id) this.getMessages();
+      if (user._id == this.user._id) this.messages.unshift(user.message);
     });
     this.socket.on('typing', data => {
       if (data._id == this.user._id) this.isTyping = data.typing;
@@ -5122,8 +5125,8 @@ if (style0.__inject__) style0.__inject__(context)
 
 var InetchatCard_component = normalizeComponent(
   components_InetchatCardvue_type_script_lang_js_,
-  InetchatCardvue_type_template_id_2809dc16_render,
-  InetchatCardvue_type_template_id_2809dc16_staticRenderFns,
+  InetchatCardvue_type_template_id_dee8f802_render,
+  InetchatCardvue_type_template_id_dee8f802_staticRenderFns,
   false,
   injectStyles,
   null,
@@ -5132,19 +5135,19 @@ var InetchatCard_component = normalizeComponent(
 )
 
 /* harmony default export */ var InetchatCard = (InetchatCard_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"667f35ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatUsers.vue?vue&type=template&id=0b86847f&
-var InetchatUsersvue_type_template_id_0b86847f_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-users"},[_c('div',{staticClass:"ic-users-title"},[_vm._m(0),_c('div',{staticClass:"ic-w20 ic-flex ic-justify-end",on:{"click":_vm.showModal}},[_c('i',{staticClass:"fas fa-cog ic-cog"})]),_c('inetchat-config-modal',{directives:[{name:"show",rawName:"v-show",value:(_vm.showConfig),expression:"showConfig"}],attrs:{"config":_vm.config},on:{"close":_vm.closeModal,"configChange":function($event){return _vm.$emit('configChange')}}})],1),_c('div',{staticClass:"ic-users-filter"},[_c('div',{staticClass:"ic-w100 ic-flex ic-justify-center ic-align-center"},[_c('i',{staticClass:"ic-users-filter-icon fas fa-search ic-w10 ic-m1 ic-f28 ic-white"}),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filter),expression:"filter"}],staticClass:"input ic-w80 ic-h20 ic-m1 ",attrs:{"type":"text","placeholder":"Filter ..."},domProps:{"value":(_vm.filter)},on:{"input":function($event){if($event.target.composing){ return; }_vm.filter=$event.target.value}}})])]),_c('div',{staticClass:"ic-users-body scroll"},_vm._l((_vm.filtredUsers),function(user){return _c('inetchat-user',{key:user.user._id,class:{'ic-user-active': _vm.selectedUser == user.user._id, 'ic-user-active-banned': _vm.selectedUser == user.user._id && user.user.banned},attrs:{"user":user,"config":_vm.config},on:{"select":function($event){return _vm.select(user.user._id)}}})}),1)])}
-var InetchatUsersvue_type_template_id_0b86847f_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-w80 ic-f22"},[_c('i',{staticClass:"fas fa-users ic-mr2 "}),_vm._v(" Users ")])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"667f35ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatUsers.vue?vue&type=template&id=4fe2801a&
+var InetchatUsersvue_type_template_id_4fe2801a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-users"},[_c('div',{staticClass:"ic-users-title"},[_c('div',{staticClass:"ic-w80 ic-f22"},[_c('i',{staticClass:"fas fa-users ic-mr2 "}),_vm._v(" Users "),_c('span',{staticClass:"ic-f14 ",class:{'ic-text-error': _vm.remainingUsers < 10}},[_vm._v(_vm._s(_vm.userCount + '/' + _vm.config.pack.users))])]),_c('div',{staticClass:"ic-w20 ic-flex ic-justify-end",on:{"click":_vm.showModal}},[_c('i',{staticClass:"fas fa-cog ic-cog"})]),_c('inetchat-config-modal',{directives:[{name:"show",rawName:"v-show",value:(_vm.showConfig),expression:"showConfig"}],attrs:{"config":_vm.config},on:{"close":_vm.closeModal,"configChange":function($event){return _vm.$emit('configChange')}}})],1),_c('div',{staticClass:"ic-users-filter"},[_c('div',{staticClass:"ic-w100 ic-flex ic-justify-center ic-align-center"},[_c('i',{staticClass:"ic-users-filter-icon fas fa-search ic-w10 ic-m1 ic-f28 ic-white"}),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filter),expression:"filter"}],staticClass:"input ic-w80 ic-h20 ic-m1 ",attrs:{"type":"text","placeholder":"Filter ..."},domProps:{"value":(_vm.filter)},on:{"input":function($event){if($event.target.composing){ return; }_vm.filter=$event.target.value}}})])]),_c('div',{staticClass:"ic-users-body scroll"},_vm._l((_vm.filtredUsers),function(user){return _c('inetchat-user',{key:user.user._id,class:{'ic-user-active': _vm.selectedUser == user.user._id, 'ic-user-active-banned': _vm.selectedUser == user.user._id && _vm.config.pack.banning && user.user.banned},attrs:{"user":user,"config":_vm.config},on:{"select":function($event){return _vm.select(user.user._id)}}})}),1)])}
+var InetchatUsersvue_type_template_id_4fe2801a_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/InetchatUsers.vue?vue&type=template&id=0b86847f&
+// CONCATENATED MODULE: ./src/components/InetchatUsers.vue?vue&type=template&id=4fe2801a&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"667f35ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatUser.vue?vue&type=template&id=79558d04&
-var InetchatUservue_type_template_id_79558d04_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-user ic-p2",class:{'ic-user-banned':_vm.user.user.banned},on:{"click":_vm.select}},[_c('div',{staticClass:"ic-user-title ic-flex ic-justify-between"},[_c('div',[_c('i',{staticClass:"fas fa-square ic-user-title-icon"}),_vm._v(" "+_vm._s(_vm.user.user.name)+" ")]),(!_vm.user.user.banned)?_c('div',{on:{"click":function($event){$event.stopPropagation();return _vm.banUser(true)}}},[_c('i',{staticClass:"fas fa-ban ic-ban ic-text-error"})]):_c('div',{on:{"click":function($event){$event.stopPropagation();return _vm.banUser(false)}}},[_c('i',{staticClass:"fas fa-check ic-ban ic-text-success"})])]),_c('div',{staticClass:"ic-user-message"},[_c('span',{staticClass:"ic-bold ic-f14 ic-op"},[_vm._v(_vm._s(_vm.user.type == 's' ? 'Him : ' : 'You : '))]),_vm._v(_vm._s(_vm.user.message)+" ")]),_c('div',{staticClass:"ic-user-date ic-flex ic-justify-end ic-align-end"},[_c('div',[_vm._v(" "+_vm._s(_vm.dayjs(_vm.user.createdAt).format('DD/MM/YYYY HH:mm'))+" ")])])])}
-var InetchatUservue_type_template_id_79558d04_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"667f35ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatUser.vue?vue&type=template&id=bb7533f0&
+var InetchatUservue_type_template_id_bb7533f0_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-user ic-p2",class:{'ic-user-banned':_vm.config.pack.banning && _vm.user.user.banned},on:{"click":_vm.select}},[_c('div',{staticClass:"ic-user-title ic-flex ic-justify-between"},[_c('div',[_c('i',{staticClass:"fas fa-square ic-user-title-icon"}),_vm._v(" "+_vm._s(_vm.user.user.name)+" ")]),(_vm.config.pack.banning && !_vm.user.user.banned)?_c('div',{on:{"click":function($event){$event.stopPropagation();return _vm.banUser(true)}}},[_c('i',{staticClass:"fas fa-ban ic-ban ic-text-error"})]):_vm._e(),(_vm.config.pack.banning && _vm.user.user.banned)?_c('div',{on:{"click":function($event){$event.stopPropagation();return _vm.banUser(false)}}},[_c('i',{staticClass:"fas fa-check ic-ban ic-text-success"})]):_vm._e()]),_c('div',{staticClass:"ic-user-message"},[_c('span',{staticClass:"ic-bold ic-f14 ic-op"},[_vm._v(_vm._s(_vm.user.type == 's' ? 'Him : ' : 'You : '))]),_vm._v(_vm._s(_vm.user.message)+" ")]),_c('div',{staticClass:"ic-user-date ic-flex ic-justify-end ic-align-end"},[_c('div',[_vm._v(" "+_vm._s(_vm.dayjs(_vm.user.createdAt).format('DD/MM/YYYY HH:mm'))+" ")])])])}
+var InetchatUservue_type_template_id_bb7533f0_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/InetchatUser.vue?vue&type=template&id=79558d04&
+// CONCATENATED MODULE: ./src/components/InetchatUser.vue?vue&type=template&id=bb7533f0&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatUser.vue?vue&type=script&lang=js&
 //
@@ -5187,6 +5190,7 @@ var InetchatUservue_type_template_id_79558d04_staticRenderFns = []
     },
 
     banUser(value) {
+      if (!this.config.pack.banning) return;
       axios_default.a.post('http://localhost:3000/user/' + this.user.user._id + '/ban', {
         banned: value
       }, {
@@ -5216,8 +5220,8 @@ var InetchatUservue_type_template_id_79558d04_staticRenderFns = []
 
 var InetchatUser_component = normalizeComponent(
   components_InetchatUservue_type_script_lang_js_,
-  InetchatUservue_type_template_id_79558d04_render,
-  InetchatUservue_type_template_id_79558d04_staticRenderFns,
+  InetchatUservue_type_template_id_bb7533f0_render,
+  InetchatUservue_type_template_id_bb7533f0_staticRenderFns,
   false,
   null,
   null,
@@ -5226,14 +5230,23 @@ var InetchatUser_component = normalizeComponent(
 )
 
 /* harmony default export */ var InetchatUser = (InetchatUser_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"667f35ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatConfigModal.vue?vue&type=template&id=43268ca4&
-var InetchatConfigModalvue_type_template_id_43268ca4_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-backdrop"},[_c('div',{staticClass:"modal"},[_c('div',{staticClass:"ic-card"},[_vm._m(0),_c('div',{staticClass:"ic-card-text ic-p2 "},[_c('div',[_vm._v(" Avatar : ")]),_c('div',{staticClass:"ic-flex ic-justify-center"},[_c('div',{staticClass:"helper"}),_c('div',{staticClass:"drop display-inline align-center",on:{"dragover":function($event){$event.preventDefault();},"drop":_vm.onDrop}},[_c('div',{staticClass:"helper"}),(!_vm.image)?_c('label',{staticClass:"btn display-inline"},[_c('i',{staticClass:"fas fa-image "}),_c('input',{attrs:{"type":"file","name":"image"},on:{"change":_vm.onChange}})]):_c('div',{staticClass:"hidden display-inline align-center",class:{ image: true }},[_c('img',{staticClass:"img",attrs:{"src":_vm.image,"alt":""}})])])]),_c('div',{staticClass:"ic-flex ic-align-center ic-justify-center"},[(_vm.image)?_c('button',{staticClass:"ic-button ic-bg-error ic-f14",on:{"click":_vm.removeFile}},[_c('i',{staticClass:"fas fa-times"})]):_vm._e()]),_c('div',{staticClass:"ic-mt2 ic-mb1"},[_vm._v(" Name : ")]),_c('div',{staticClass:"ic-flex ic-justify-center"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.name),expression:"name"}],staticClass:"input ic-w100 ",attrs:{"type":"text","placerholder":"name"},domProps:{"value":(_vm.name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.name=$event.target.value}}})]),_c('div',{staticClass:"ic-w100"},[_c('div',{staticClass:"ic-w40"},[_c('div',{staticClass:"ic-mt2 ic-mb1"},[_vm._v(" Primary color : ")]),_c('div',{staticClass:"ic-flex ic-align-center"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.primary),expression:"primary"}],staticClass:"ic-mr2",attrs:{"type":"color","name":"color"},domProps:{"value":(_vm.primary)},on:{"input":function($event){if($event.target.composing){ return; }_vm.primary=$event.target.value}}}),_vm._v(" "+_vm._s(_vm.primary)+" ")])]),_c('div',{staticClass:"ic-w40"},[_c('div',{staticClass:"ic-mt2 ic-mb1"},[_vm._v(" Secondary color : ")]),_c('div',{staticClass:"ic-flex ic-align-center"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.secondary),expression:"secondary"}],staticClass:"ic-mr2",attrs:{"type":"color","name":"color"},domProps:{"value":(_vm.secondary)},on:{"input":function($event){if($event.target.composing){ return; }_vm.secondary=$event.target.value}}}),_vm._v(" "+_vm._s(_vm.secondary)+" ")])])])]),_c('div',{staticClass:"ic-card-actions ic-flex ic-justify-end"},[_c('button',{staticClass:"ic-button ic-bg-error ic-w10 ic-m1",on:{"click":_vm.close}},[_c('i',{staticClass:"fa fa-times"})]),_c('button',{staticClass:"ic-button ic-bg-success ic-w10 ic-m1",on:{"click":_vm.save}},[_c('i',{staticClass:"fa fa-check"})])])])])])}
-var InetchatConfigModalvue_type_template_id_43268ca4_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-card-title"},[_c('i',{staticClass:"fas fa-cog ic-mr2"}),_vm._v("Configuration ")])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"667f35ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatConfigModal.vue?vue&type=template&id=8f4c9ede&
+var InetchatConfigModalvue_type_template_id_8f4c9ede_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-backdrop"},[_c('div',{staticClass:"modal"},[_c('div',{staticClass:"ic-card"},[_vm._m(0),_c('div',{staticClass:"ic-card-text ic-p2 "},[(_vm.config.pack.config.includes('I'))?_c('div',[_c('div',[_vm._v(" Avatar : ")]),_c('div',{staticClass:"ic-flex ic-justify-center"},[_c('div',{staticClass:"helper"}),_c('div',{staticClass:"drop display-inline align-center",on:{"dragover":function($event){$event.preventDefault();},"drop":_vm.onDrop}},[_c('div',{staticClass:"helper"}),(!_vm.image)?_c('label',{staticClass:"btn display-inline"},[_c('i',{staticClass:"fas fa-image "}),_c('input',{attrs:{"type":"file","name":"image"},on:{"change":_vm.onChange}})]):_c('div',{staticClass:"hidden display-inline align-center",class:{ image: true }},[_c('img',{staticClass:"img",attrs:{"src":_vm.image,"alt":""}})])])])]):_vm._e(),_c('div',{staticClass:"ic-flex ic-align-center ic-justify-center"},[(_vm.image)?_c('button',{staticClass:"ic-button ic-bg-error ic-f14",on:{"click":_vm.removeFile}},[_c('i',{staticClass:"fas fa-times"})]):_vm._e()]),(_vm.config.pack.config.includes('N'))?_c('div',[_c('div',{staticClass:"ic-mt2 ic-mb1"},[_vm._v(" Name : ")]),_c('div',{staticClass:"ic-flex ic-justify-center"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.name),expression:"name"}],staticClass:"input ic-w100 ",attrs:{"type":"text","placerholder":"name"},domProps:{"value":(_vm.name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.name=$event.target.value}}})])]):_vm._e(),(_vm.config.pack.config.includes('C'))?_c('div',{staticClass:"ic-w100"},[_c('div',{staticClass:"ic-w40"},[_c('div',{staticClass:"ic-mt2 ic-mb1"},[_vm._v(" Primary color : ")]),_c('div',{staticClass:"ic-flex ic-align-center"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.primary),expression:"primary"}],staticClass:"ic-mr2",attrs:{"type":"color","name":"color"},domProps:{"value":(_vm.primary)},on:{"input":function($event){if($event.target.composing){ return; }_vm.primary=$event.target.value}}}),_vm._v(" "+_vm._s(_vm.primary)+" ")])]),_c('div',{staticClass:"ic-w40"},[_c('div',{staticClass:"ic-mt2 ic-mb1"},[_vm._v(" Secondary color : ")]),_c('div',{staticClass:"ic-flex ic-align-center"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.secondary),expression:"secondary"}],staticClass:"ic-mr2",attrs:{"type":"color","name":"color"},domProps:{"value":(_vm.secondary)},on:{"input":function($event){if($event.target.composing){ return; }_vm.secondary=$event.target.value}}}),_vm._v(" "+_vm._s(_vm.secondary)+" ")])])]):_vm._e()]),_c('div',{staticClass:"ic-card-actions ic-flex ic-justify-end"},[_c('button',{staticClass:"ic-button ic-bg-error ic-w10 ic-m1",on:{"click":_vm.close}},[_c('i',{staticClass:"fa fa-times"})]),_c('button',{staticClass:"ic-button ic-bg-success ic-w10 ic-m1",on:{"click":_vm.save}},[_c('i',{staticClass:"fa fa-check"})])])])])])}
+var InetchatConfigModalvue_type_template_id_8f4c9ede_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-card-title"},[_c('i',{staticClass:"fas fa-cog ic-mr2"}),_vm._v("Configuration ")])}]
 
 
-// CONCATENATED MODULE: ./src/components/InetchatConfigModal.vue?vue&type=template&id=43268ca4&
+// CONCATENATED MODULE: ./src/components/InetchatConfigModal.vue?vue&type=template&id=8f4c9ede&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatConfigModal.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -5435,8 +5448,8 @@ if (style0.__inject__) style0.__inject__(context)
 
 var InetchatConfigModal_component = normalizeComponent(
   components_InetchatConfigModalvue_type_script_lang_js_,
-  InetchatConfigModalvue_type_template_id_43268ca4_render,
-  InetchatConfigModalvue_type_template_id_43268ca4_staticRenderFns,
+  InetchatConfigModalvue_type_template_id_8f4c9ede_render,
+  InetchatConfigModalvue_type_template_id_8f4c9ede_staticRenderFns,
   false,
   InetchatConfigModal_injectStyles,
   null,
@@ -5482,6 +5495,7 @@ var InetchatConfigModal_component = normalizeComponent(
   },
   data: () => ({
     users: [],
+    userCount: 0,
     selectedUser: null,
     showConfig: false,
     filter: '',
@@ -5503,6 +5517,7 @@ var InetchatConfigModal_component = normalizeComponent(
         }
       }).then(res => {
         this.users = res.data.messages;
+        this.userCount = res.data.userCount;
       }).catch(e => console.log(e));
     },
 
@@ -5514,6 +5529,10 @@ var InetchatConfigModal_component = normalizeComponent(
   computed: {
     filtredUsers() {
       if (this.filter) return this.users.filter(message => message.user.name.includes(this.filter) || message.user.email.includes(this.filter));else return this.users;
+    },
+
+    remainingUsers() {
+      return this.config.pack.users - this.userCount;
     }
 
   },
@@ -5543,8 +5562,8 @@ var InetchatConfigModal_component = normalizeComponent(
 
 var InetchatUsers_component = normalizeComponent(
   components_InetchatUsersvue_type_script_lang_js_,
-  InetchatUsersvue_type_template_id_0b86847f_render,
-  InetchatUsersvue_type_template_id_0b86847f_staticRenderFns,
+  InetchatUsersvue_type_template_id_4fe2801a_render,
+  InetchatUsersvue_type_template_id_4fe2801a_staticRenderFns,
   false,
   null,
   null,
