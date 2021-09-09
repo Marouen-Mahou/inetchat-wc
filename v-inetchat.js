@@ -4796,33 +4796,33 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c08fdcc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=30be0653&shadow
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://use.fontawesome.com/releases/v5.2.0/css/all.css","integrity":"sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ","crossorigin":"anonymous"}}),(_vm.config && _vm.config.active)?_c('inetchat',{attrs:{"config":_vm.config}}):_vm._e()],1)}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c08fdcc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=31db4119&shadow
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://use.fontawesome.com/releases/v5.2.0/css/all.css","integrity":"sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ","crossorigin":"anonymous"}}),(_vm.config && _vm.active)?_c('inetchat',{attrs:{"config":_vm.config}}):_vm._e()],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=30be0653&shadow
+// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=31db4119&shadow
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c08fdcc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Inetchat.vue?vue&type=template&id=5505cace&
-var Inetchatvue_type_template_id_5505cace_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"inetchat"},[_c('transition',{attrs:{"name":"slide-fade"}},[(_vm.showChat)?_c('inetchat-card',{attrs:{"config":_vm.config}}):_vm._e()],1),_c('inetchatWidget',{attrs:{"active":_vm.showChat},on:{"clicked":_vm.toggleChat}})],1)}
-var Inetchatvue_type_template_id_5505cace_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/components/Inetchat.vue?vue&type=template&id=5505cace&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c08fdcc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatCard.vue?vue&type=template&id=48f6ecae&
-var InetchatCardvue_type_template_id_48f6ecae_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-chat"},[_c('div',{staticClass:"ic-card"},[_c('div',{staticClass:"ic-card-title"},[_c('div',{staticClass:"ic-w20"},[_c('img',{staticClass:"ic-avatar",attrs:{"src":'http://localhost:3001/' + this.config.avatar,"alt":"Avatar"}})]),_c('div',{staticClass:"ic-w60"},[_vm._v(" "+_vm._s(_vm.config.name)+" ")]),_vm._m(0)]),(!_vm.logged)?_c('div',{staticClass:"ic-card-login"},[_c('inetchat-login',{attrs:{"db":_vm.config.db,"limit":_vm.config.pack.users,"banning":_vm.config.pack.banning},on:{"logged":_vm.login}})],1):_vm._e(),(_vm.logged)?_c('div',{staticClass:"ic-card-text ic-p2 ic-scroll ic-scroll-chat"},[(_vm.image)?_c('div',{staticClass:"ic-show-image",class:{ image: true }},[_c('img',{staticClass:"ic-img ic-m1",attrs:{"src":_vm.image,"alt":""}})]):_vm._e(),(_vm.isTyping)?_c('div',{staticClass:"ic-message-l"},[_c('div',{staticClass:"ic-message-l-title"},[_c('i',{staticClass:"fas fa-square ic-message-l-title-icon"}),_vm._v(" "+_vm._s(_vm.config.name)+" ")]),_vm._m(1)]):_vm._e(),_vm._l((_vm.messages),function(message){return _c('inetchat-message',{key:message._id,attrs:{"message":message}})})],2):_vm._e(),(_vm.logged)?_c('div',{staticClass:"ic-card-actions"},[_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.message),expression:"message"}],staticClass:"input ic-w70 ic-m1 ic-scroll",staticStyle:{"resize":"none"},attrs:{"id":"textarea"},domProps:{"value":(_vm.message)},on:{"input":function($event){if($event.target.composing){ return; }_vm.message=$event.target.value}}}),(_vm.config.pack.messaging != 'NF')?_c('div',{staticClass:"ic-w10 ic-flex ic-align-center ic-justify-center"},[(!_vm.image)?_c('label',{staticClass:"btn display-inline"},[_c('i',{staticClass:"ic-file fa fa-paperclip ic-f20"}),_c('input',{attrs:{"type":"file","name":"image"},on:{"change":_vm.onChange}})]):_c('div',{on:{"click":_vm.removeFile}},[_c('i',{staticClass:"fa fa-times ic-file ic-f20"})])]):_vm._e(),_c('button',{staticClass:"ic-button ic-w20 ic-m1",attrs:{"disabled":!_vm.message},on:{"click":_vm.sendMessage}},[_c('i',{staticClass:"fa fa-paper-plane"})])]):_vm._e()])])}
-var InetchatCardvue_type_template_id_48f6ecae_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-w20"},[_c('img',{attrs:{"height":"40","src":__webpack_require__("b01b")}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-message-l-text"},[_c('div',{staticClass:"lds-ellipsis"},[_c('div'),_c('div'),_c('div'),_c('div')])])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c08fdcc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Inetchat.vue?vue&type=template&id=48f2d85a&
+var Inetchatvue_type_template_id_48f2d85a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"inetchat"},[_c('transition',{attrs:{"name":"slide-fade"}},[(_vm.showChat)?_c('inetchat-card',{attrs:{"config":_vm.config}}):_vm._e()],1),_c('inetchatWidget',{attrs:{"active":_vm.showChat},on:{"clicked":_vm.toggleChat}})],1)}
+var Inetchatvue_type_template_id_48f2d85a_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/InetchatCard.vue?vue&type=template&id=48f6ecae&
+// CONCATENATED MODULE: ./src/components/Inetchat.vue?vue&type=template&id=48f2d85a&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c08fdcc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatMessage.vue?vue&type=template&id=3db4059c&
-var InetchatMessagevue_type_template_id_3db4059c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.message.type == 's')?_c('div',{staticClass:"ic-message-r"},[_c('div',{staticClass:"ic-message-r-title"},[_c('i',{staticClass:"fas fa-square ic-message-r-title-icon"}),_vm._v(" "+_vm._s(_vm.message.user.name)+" ")]),_c('div',{staticClass:"ic-message-r-text"},[(_vm.message.file)?_c('div',{class:{ image: true }},[_c('a',{attrs:{"href":'http://localhost:3000/' + _vm.message.file,"target":"_blank"}},[_c('img',{staticClass:"ic-img",attrs:{"src":'http://localhost:3000/' + _vm.message.file,"alt":""}})])]):_vm._e(),_vm._v(" "+_vm._s(_vm.message.message)+" ")]),_c('div',{staticClass:"ic-message-r-date"},[_vm._v(" "+_vm._s(_vm.dayjs(_vm.message.createdAt).format('DD/MM/YYYY HH:mm'))+" ")])]):_vm._e(),(_vm.message.type == 'r')?_c('div',{staticClass:"ic-message-l"},[_vm._m(0),_c('div',{staticClass:"ic-message-l-text"},[(_vm.message.file)?_c('div',{class:{ image: true }},[_c('a',{attrs:{"href":'http://localhost:3000/' + _vm.message.file,"target":"_blank"}},[_c('img',{staticClass:"ic-img",attrs:{"src":'http://localhost:3000/' + _vm.message.file,"alt":""}})])]):_vm._e(),_vm._v(" "+_vm._s(_vm.message.message)+" ")]),_c('div',{staticClass:"ic-message-l-date"},[_vm._v(" "+_vm._s(_vm.dayjs(_vm.message.createdAt).format('DD/MM/YYYY HH:mm'))+" ")])]):_vm._e()])}
-var InetchatMessagevue_type_template_id_3db4059c_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-message-l-title"},[_c('i',{staticClass:"fas fa-square ic-message-l-title-icon"}),_vm._v(" Inetum ")])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c08fdcc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatCard.vue?vue&type=template&id=87d4dc84&
+var InetchatCardvue_type_template_id_87d4dc84_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-chat"},[_c('div',{staticClass:"ic-card"},[_c('div',{staticClass:"ic-card-title"},[_c('div',{staticClass:"ic-w20"},[_c('img',{staticClass:"ic-avatar",attrs:{"src":'http://localhost:3001/' + this.config.avatar,"alt":"Avatar"}})]),_c('div',{staticClass:"ic-w60"},[_vm._v(" "+_vm._s(_vm.config.name)+" ")]),_vm._m(0)]),(!_vm.logged)?_c('div',{staticClass:"ic-card-login"},[_c('inetchat-login',{attrs:{"db":_vm.config.db,"limit":_vm.config.pack.users,"banning":_vm.config.pack.banning},on:{"logged":_vm.login}})],1):_vm._e(),(_vm.logged)?_c('div',{staticClass:"ic-card-text ic-p2 ic-scroll ic-scroll-chat"},[(_vm.image)?_c('div',{staticClass:"ic-show-image",class:{ image: true }},[_c('img',{staticClass:"ic-img ic-m1",attrs:{"src":_vm.image,"alt":""}})]):_vm._e(),(_vm.isTyping)?_c('div',{staticClass:"ic-message-l"},[_c('div',{staticClass:"ic-message-l-title"},[_c('i',{staticClass:"fas fa-square ic-message-l-title-icon"}),_vm._v(" "+_vm._s(_vm.config.name)+" ")]),_vm._m(1)]):_vm._e(),_vm._l((_vm.messages),function(message){return _c('inetchat-message',{key:message._id,attrs:{"message":message}})})],2):_vm._e(),(_vm.logged)?_c('div',{staticClass:"ic-card-actions"},[_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.message),expression:"message"}],staticClass:"input ic-w70 ic-m1 ic-scroll",staticStyle:{"resize":"none"},attrs:{"id":"textarea"},domProps:{"value":(_vm.message)},on:{"input":function($event){if($event.target.composing){ return; }_vm.message=$event.target.value}}}),(_vm.config.pack.messaging != 'NF')?_c('div',{staticClass:"ic-w10 ic-flex ic-align-center ic-justify-center"},[(!_vm.image)?_c('label',{staticClass:"btn display-inline"},[_c('i',{staticClass:"ic-file fa fa-paperclip ic-f20"}),_c('input',{attrs:{"type":"file","name":"image"},on:{"change":_vm.onChange}})]):_c('div',{on:{"click":_vm.removeFile}},[_c('i',{staticClass:"fa fa-times ic-file ic-f20"})])]):_vm._e(),_c('button',{staticClass:"ic-button ic-w20 ic-m1",attrs:{"disabled":!_vm.message},on:{"click":_vm.sendMessage}},[_c('i',{staticClass:"fa fa-paper-plane"})])]):_vm._e()])])}
+var InetchatCardvue_type_template_id_87d4dc84_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-w20"},[_c('img',{attrs:{"height":"40","src":__webpack_require__("b01b")}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-message-l-text"},[_c('div',{staticClass:"lds-ellipsis"},[_c('div'),_c('div'),_c('div'),_c('div')])])}]
 
 
-// CONCATENATED MODULE: ./src/components/InetchatMessage.vue?vue&type=template&id=3db4059c&
+// CONCATENATED MODULE: ./src/components/InetchatCard.vue?vue&type=template&id=87d4dc84&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c08fdcc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatMessage.vue?vue&type=template&id=0324bdda&
+var InetchatMessagevue_type_template_id_0324bdda_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.message.type == 's')?_c('div',{staticClass:"ic-message-r"},[_c('div',{staticClass:"ic-message-r-title"},[_c('i',{staticClass:"fas fa-square ic-message-r-title-icon"}),_vm._v(" "+_vm._s(_vm.message.user.name)+" ")]),_c('div',{staticClass:"ic-message-r-text"},[(_vm.message.file)?_c('div',{class:{ image: true }},[_c('a',{attrs:{"href":'http://localhost:3000/' + _vm.message.file,"target":"_blank"}},[_c('img',{staticClass:"ic-img",attrs:{"src":'http://localhost:3000/' + _vm.message.file,"alt":""}})])]):_vm._e(),_vm._v(" "+_vm._s(_vm.message.message)+" ")]),_c('div',{staticClass:"ic-message-r-date"},[_vm._v(" "+_vm._s(_vm.dayjs(_vm.message.createdAt).format('DD/MM/YYYY HH:mm'))+" ")])]):_vm._e(),(_vm.message.type == 'r')?_c('div',{staticClass:"ic-message-l"},[_vm._m(0),_c('div',{staticClass:"ic-message-l-text"},[(_vm.message.file)?_c('div',{class:{ image: true }},[_c('a',{attrs:{"href":'http://localhost:3000/' + _vm.message.file,"target":"_blank"}},[_c('img',{staticClass:"ic-img",attrs:{"src":'http://localhost:3000/' + _vm.message.file,"alt":""}})])]):_vm._e(),_vm._v(" "+_vm._s(_vm.message.message)+" ")]),_c('div',{staticClass:"ic-message-l-date"},[_vm._v(" "+_vm._s(_vm.dayjs(_vm.message.createdAt).format('DD/MM/YYYY HH:mm'))+" ")])]):_vm._e()])}
+var InetchatMessagevue_type_template_id_0324bdda_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-message-l-title"},[_c('i',{staticClass:"fas fa-square ic-message-l-title-icon"}),_vm._v(" Inetum ")])}]
+
+
+// CONCATENATED MODULE: ./src/components/InetchatMessage.vue?vue&type=template&id=0324bdda&
 
 // EXTERNAL MODULE: ./node_modules/dayjs/dayjs.min.js
 var dayjs_min = __webpack_require__("5a0c");
@@ -4871,6 +4871,7 @@ var dayjs_min_default = /*#__PURE__*/__webpack_require__.n(dayjs_min);
 //
 //
 //
+// days for date format
 
 /* harmony default export */ var InetchatMessagevue_type_script_lang_js_ = ({
   name: 'message',
@@ -4891,8 +4892,8 @@ var dayjs_min_default = /*#__PURE__*/__webpack_require__.n(dayjs_min);
 
 var component = normalizeComponent(
   components_InetchatMessagevue_type_script_lang_js_,
-  InetchatMessagevue_type_template_id_3db4059c_render,
-  InetchatMessagevue_type_template_id_3db4059c_staticRenderFns,
+  InetchatMessagevue_type_template_id_0324bdda_render,
+  InetchatMessagevue_type_template_id_0324bdda_staticRenderFns,
   false,
   null,
   null,
@@ -4901,12 +4902,12 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var InetchatMessage = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c08fdcc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatLogin.vue?vue&type=template&id=a14b7f0e&
-var InetchatLoginvue_type_template_id_a14b7f0e_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-w80"},[_vm._m(0),_c('div',{staticClass:"ic-w100 ic-flex ic-justify-center ic-align-center"},[_c('i',{staticClass:"fas fa-user ic-w10 ic-m1 ic-f28 ic-white"}),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.name),expression:"name"}],staticClass:"input ic-w80 ic-m1 ",attrs:{"type":"text","placeholder":"Name"},domProps:{"value":(_vm.name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.name=$event.target.value}}})]),_c('div',{staticClass:"ic-w100 ic-flex ic-justify-center ic-align-center"},[_c('i',{staticClass:"fas fa-at ic-w10 ic-m1 ic-f28 ic-white"}),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.email),expression:"email"}],staticClass:"input ic-w80 ic-m1 ",attrs:{"type":"text","placeholder":"Email"},domProps:{"value":(_vm.email)},on:{"input":function($event){if($event.target.composing){ return; }_vm.email=$event.target.value}}})]),_c('div',{staticClass:"ic-w100 ic-flex ic-justify-center ic-p2"},[_c('button',{staticClass:"ic-button ic-w20 ic-m1 ic-p1",on:{"click":_vm.loggin}},[_c('i',{staticClass:"fas fa-sign-in-alt"})])]),(_vm.error)?_c('div',{staticClass:"ic-w100 ic-p2 ic-flex ic-justify-center ic-f20 ic-bg-error ic-white"},[_vm._v(" "+_vm._s(_vm.error)+" ")]):_vm._e()])}
-var InetchatLoginvue_type_template_id_a14b7f0e_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:" ic-flex ic-w100 ic-justify-center ic-p2"},[_c('img',{staticClass:"ic-card-login-logo ",attrs:{"height":"80","src":__webpack_require__("5f96")}})])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c08fdcc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/InetchatLogin.vue?vue&type=template&id=a71ff366&
+var InetchatLoginvue_type_template_id_a71ff366_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ic-w80"},[_vm._m(0),_c('div',{staticClass:"ic-w100 ic-flex ic-justify-center ic-align-center"},[_c('i',{staticClass:"fas fa-user ic-w10 ic-m1 ic-f28 ic-white"}),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.name),expression:"name"}],staticClass:"input ic-w80 ic-m1 ",attrs:{"type":"text","placeholder":"Name"},domProps:{"value":(_vm.name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.name=$event.target.value}}})]),_c('div',{staticClass:"ic-w100 ic-flex ic-justify-center ic-align-center"},[_c('i',{staticClass:"fas fa-at ic-w10 ic-m1 ic-f28 ic-white"}),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.email),expression:"email"}],staticClass:"input ic-w80 ic-m1 ",attrs:{"type":"text","placeholder":"Email"},domProps:{"value":(_vm.email)},on:{"input":function($event){if($event.target.composing){ return; }_vm.email=$event.target.value}}})]),_c('div',{staticClass:"ic-w100 ic-flex ic-justify-center ic-p2"},[_c('button',{staticClass:"ic-button ic-w20 ic-m1 ic-p1",on:{"click":_vm.loggin}},[_c('i',{staticClass:"fas fa-sign-in-alt"})])]),(_vm.error)?_c('div',{staticClass:"ic-w100 ic-p2 ic-flex ic-justify-center ic-f20 ic-bg-error ic-white"},[_vm._v(" "+_vm._s(_vm.error)+" ")]):_vm._e()])}
+var InetchatLoginvue_type_template_id_a71ff366_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:" ic-flex ic-w100 ic-justify-center ic-p2"},[_c('img',{staticClass:"ic-card-login-logo ",attrs:{"height":"80","src":__webpack_require__("5f96")}})])}]
 
 
-// CONCATENATED MODULE: ./src/components/InetchatLogin.vue?vue&type=template&id=a14b7f0e&
+// CONCATENATED MODULE: ./src/components/InetchatLogin.vue?vue&type=template&id=a71ff366&
 
 // EXTERNAL MODULE: ./node_modules/axios/index.js
 var axios = __webpack_require__("bc3a");
@@ -4951,7 +4952,9 @@ var axios_default = /*#__PURE__*/__webpack_require__.n(axios);
   }),
   methods: {
     loggin() {
-      this.error = "";
+      //Hide error
+      this.error = ""; //Login API
+
       axios_default.a.post('http://localhost:3000/login', {
         name: this.name,
         email: this.email
@@ -4961,10 +4964,13 @@ var axios_default = /*#__PURE__*/__webpack_require__.n(axios);
           users: this.limit
         }
       }).then(res => {
+        // Save informations
         localStorage.setItem('ic-user', res.data.user._id);
-        localStorage.setItem('ic-token', res.data.token);
+        localStorage.setItem('ic-token', res.data.token); // Check if user is banned 
+
         if (!this.banning || !res.data.user.banned) this.$emit('logged', true);else this.error = 'User is banned !';
       }).catch(e => {
+        //401 : Max number of users is reached
         if (e.response.status == 401) {
           this.error = 'Limit of users reached !';
         }
@@ -4985,8 +4991,8 @@ var axios_default = /*#__PURE__*/__webpack_require__.n(axios);
 
 var InetchatLogin_component = normalizeComponent(
   components_InetchatLoginvue_type_script_lang_js_,
-  InetchatLoginvue_type_template_id_a14b7f0e_render,
-  InetchatLoginvue_type_template_id_a14b7f0e_staticRenderFns,
+  InetchatLoginvue_type_template_id_a71ff366_render,
+  InetchatLoginvue_type_template_id_a71ff366_staticRenderFns,
   false,
   null,
   null,
@@ -5081,6 +5087,7 @@ var lib = __webpack_require__("8055");
   }),
   methods: {
     login() {
+      //Login
       this.logged = true;
       this.user = localStorage.getItem('ic-user');
       this.token = localStorage.getItem('ic-token'); //Notify admin about the new user
@@ -5089,13 +5096,16 @@ var lib = __webpack_require__("8055");
         _id: this.user
       });
       this.getMessages(); //Set listeners
+      //Listen for incomming messages
 
       this.socket.on('message', user => {
         if (user._id == this.user) this.messages.unshift(user.message);
-      });
+      }); //Listen for user typing
+
       this.socket.on('typing', data => {
         if (data._id == this.user) this.isTyping = data.typing;
-      });
+      }); //Listen for user ban / loggout user in case of ban 
+
       this.socket.on('banned', data => {
         if (data._id == this.user && data.banned) {
           this.logged = false;
@@ -5112,6 +5122,7 @@ var lib = __webpack_require__("8055");
           db: this.config.db
         }
       }).then(res => {
+        // Set messages in reverse (Newest to oldest)
         this.messages = res.data.messages.reverse();
       }).catch(e => console.log(e));
     },
@@ -5133,14 +5144,17 @@ var lib = __webpack_require__("8055");
           db: this.config.db
         }
       }).then(res => {
+        // Add Message after validation
+        this.messages.unshift(res.data); // Reset data
+
         this.message = '';
         this.image = '';
-        this.file = '';
+        this.file = ''; // Notify the admin
+
         this.socket.emit('message', {
           message: res.data,
           _id: this.user
         });
-        this.messages.unshift(res.data);
       }).catch(e => console.log(e));
     },
 
@@ -5174,6 +5188,7 @@ var lib = __webpack_require__("8055");
 
   },
   watch: {
+    // Listen for message typing
     message(val) {
       if (val && !this.typing) this.socket.emit('typing', {
         _id: this.user,
@@ -5187,6 +5202,7 @@ var lib = __webpack_require__("8055");
   },
 
   created() {
+    // Check if user is already logged or not
     if (localStorage.getItem('ic-user') && localStorage.getItem('ic-token')) {
       this.login();
     }
@@ -5199,21 +5215,16 @@ var lib = __webpack_require__("8055");
 
 
 
-function injectStyles (context) {
-  
-  var style0 = __webpack_require__("ad7f")
-if (style0.__inject__) style0.__inject__(context)
 
-}
 
 /* normalize component */
 
 var InetchatCard_component = normalizeComponent(
   components_InetchatCardvue_type_script_lang_js_,
-  InetchatCardvue_type_template_id_48f6ecae_render,
-  InetchatCardvue_type_template_id_48f6ecae_staticRenderFns,
+  InetchatCardvue_type_template_id_87d4dc84_render,
+  InetchatCardvue_type_template_id_87d4dc84_staticRenderFns,
   false,
-  injectStyles,
+  null,
   null,
   null
   ,true
@@ -5290,6 +5301,7 @@ var InetchatWidget_component = normalizeComponent(
     showChat: false
   }),
   methods: {
+    // Show/hide chat
     toggleChat() {
       this.showChat = !this.showChat;
     }
@@ -5308,8 +5320,8 @@ var InetchatWidget_component = normalizeComponent(
 
 var Inetchat_component = normalizeComponent(
   components_Inetchatvue_type_script_lang_js_,
-  Inetchatvue_type_template_id_5505cace_render,
-  Inetchatvue_type_template_id_5505cace_staticRenderFns,
+  Inetchatvue_type_template_id_48f2d85a_render,
+  Inetchatvue_type_template_id_48f2d85a_staticRenderFns,
   false,
   null,
   null,
@@ -5331,6 +5343,7 @@ var Inetchat_component = normalizeComponent(
 //
 
 
+
 /* harmony default export */ var Appvue_type_script_lang_js_shadow = ({
   name: 'App',
   props: {
@@ -5343,15 +5356,21 @@ var Inetchat_component = normalizeComponent(
     Inetchat: Inetchat
   },
   data: () => ({
-    config: null
+    socket: lib('http://localhost:3000'),
+    config: null,
+    active: false
   }),
   methods: {
     getConfig() {
       axios_default.a.post('http://localhost:3000/config/', {
         license: this.license
       }).then(res => {
+        //Set active state
+        this.active = res.data.config.active; // Verify the active state of the license
+
+        if (!res.data.config.active) return alert('inetchat: invalid license!'); // Set application configuration
+
         this.config = res.data.config;
-        if (!this.config.active) return alert('inetchat: invalid license!');
         document.documentElement.style.setProperty("--primary", this.config.primary);
         document.documentElement.style.setProperty("--secondary", this.config.secondary);
       }).catch(e => console.log(e));
@@ -5360,9 +5379,17 @@ var Inetchat_component = normalizeComponent(
   },
 
   created() {
+    // Resets the chat
     this.getConfig();
     localStorage.removeItem('ic-user');
     localStorage.removeItem('ic-token');
+  },
+
+  mounted() {
+    //Set listeners
+    this.socket.on('activation', data => {
+      if (this.license == data.license) this.getConfig();
+    });
   }
 
 });
@@ -5372,7 +5399,7 @@ var Inetchat_component = normalizeComponent(
 
 
 
-function Appshadow_injectStyles (context) {
+function injectStyles (context) {
   
   var style0 = __webpack_require__("547d")
 if (style0.__inject__) style0.__inject__(context)
@@ -5386,7 +5413,7 @@ var Appshadow_component = normalizeComponent(
   render,
   staticRenderFns,
   false,
-  Appshadow_injectStyles,
+  injectStyles,
   null,
   null
   ,true
@@ -5566,24 +5593,6 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPgAAAC0CAYAAAC5
 
 /***/ }),
 
-/***/ "6130":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("b0aa");
-if(content.__esModule) content = content.default;
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to Shadow Root
-var add = __webpack_require__("35d6").default
-module.exports.__inject__ = function (shadowRoot) {
-  add("9caa90c4", content, shadowRoot)
-};
-
-/***/ }),
-
 /***/ "619a":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5591,7 +5600,7 @@ module.exports.__inject__ = function (shadowRoot) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root{--primary:#00aa9b;--secondary:#232d4b;--accent:#82b1ff}.ic-w10{width:10%}.ic-w20{width:20%}.ic-w30{width:30%}.ic-w40{width:40%}.ic-w50{width:50%}.ic-w60{width:60%}.ic-w70{width:70%}.ic-w80{width:80%}.ic-w90{width:90%}.ic-w100{width:100%}.ic-h20{width:20%}.ic-h40{width:40%}.ic-h60{width:60%}.ic-h80{width:80%}.ic-h100{width:100%}.ic-m1{margin:2%}.ic-m2{margin:4%}.ic-m3{margin:6%}.ic-p1{padding:2%}.ic-p2{padding:4%}.ic-p3{padding:6%}.ic-flex{display:flex}.ic-justify-center{justify-content:center}.ic-justify-end{justify-content:flex-end}.ic-justify-start{justify-content:flex-start}.ic-align-center{align-items:center}.ic-align-end{align-items:flex-end}.ic-align-start{align-items:flex-start}.ic-rtl{direction:rtl}.ic-primary{color:var(--primary)}.ic-secondary{color:var(--secondary)}.ic-white{color:#fff}.ic-bg-primary{background-color:var(--primary)}.ic-bg-secondary{background-color:var(--secondary)}.ic-bg-error{background-color:#ff5252}.ic-f14{font-size:14px}.ic-f16{font-size:16px}.ic-f18{font-size:18px}.ic-f20{font-size:20px}.ic-f22{font-size:22px}.ic-f24,.ic-f26,.ic-f28{font-size:24px}.ic-card{height:480px;width:360px;box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)}.ic-card-title{padding:10px;border-radius:4px 4px 0 0;height:50px;font-size:24px;text-align:left;background-color:var(--primary);color:#fff}.ic-card-login,.ic-card-title{display:flex;justify-content:center;align-items:center}.ic-card-login{height:450px;background-color:var(--secondary);border-radius:0 0 4px 4px}.ic-card-text{height:360px;overflow-y:auto;background-color:#fff}.ic-card-actions{display:flex;align-content:center;border-radius:0 0 4px 4px;background-color:var(--secondary);height:60px}.ic-avatar{vertical-align:middle;width:50px;height:50px;border-radius:50%}.ic-button{color:#fff;text-transform:uppercase;text-decoration:none;background:var(--primary);border-radius:5px;font-size:25px;display:inline-block;border:none;align-content:right;transition:all .2s ease 0s}.ic-button:hover{opacity:.85;transition:all .2s ease 0s;cursor:pointer}.ic-file{opacity:.5}.ic-file:hover{opacity:.9;color:var(--primary);cursor:pointer}.ic-message-l-title{font-weight:700;color:var(--secondary)}.ic-message-l-title-icon{color:var(--primary);font-size:10px}.ic-message-l-text{background-color:var(--primary);padding:3%;color:#fff;border-radius:0 12px 12px 12px}.ic-message-l-date{font-size:11px;color:var(--secondary);font-weight:700;opacity:.8}.ic-message-r-title{direction:rtl;font-weight:700;color:var(--primary)}.ic-message-r-title-icon{color:var(--secondary);font-size:10px}.ic-message-r-text{background-color:var(--secondary);padding:3%;color:#fff;border-radius:12px 0 12px 12px}.ic-message-r-date{font-size:11px;opacity:.8;color:var(--secondary);font-weight:700;text-align:right}.ic-show-image{z-index:10;width:100%;display:flex;align-content:center;background-color:#969696;border-radius:10px}.ic-img{background-color:#eee;display:inline-block;max-height:100%;max-width:100%;height:70px;width:70px;-o-object-fit:scale-down;object-fit:scale-down;border-radius:0!important}.ic-widgetStyle{position:fixed;bottom:0;right:10px;cursor:pointer}.slide-fade-enter-active{transition:all .4s ease}.slide-fade-leave-active{transition:all .3s cubic-bezier(1,.5,.8,1)}.slide-fade-enter,.slide-fade-leave-to{transform:translateX(15px);opacity:0}button:disabled,button[disabled]{border:1px solid #999;background-color:#ccc;color:#666;cursor:default!important}.input{font-size:16px;font-size:Max(16px,1em);font-family:inherit;padding:.25em .5em;background-color:#fff;border:2px solid #9c8d9c;border-radius:4px;transition:box-shadow .18s ease-in-out}.input:focus{border-color:var(--primary);outline:2px solid transparent}.input:not(textarea){line-height:1;height:2.25rem}input[type=file]{font-size:.9em;padding-top:.35rem}textarea.input{resize:vertical}.input[readonly]{border-style:dotted;cursor:not-allowed;color:#777}.input[disabled]{background-color:#eee;cursor:not-allowed}label{font-size:1.125rem;font-weight:500;line-height:1}.input+label{margin-top:2rem}input[type=file]{position:absolute;opacity:0;z-index:-1}.ic-scroll-chat{display:flex;flex-direction:column-reverse}.ic-scroll::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);background-color:#f5f5f5}.ic-scroll::-webkit-scrollbar{width:6px;background-color:#f5f5f5}.ic-scroll::-webkit-scrollbar-thumb{background-color:var(--primary)}*{font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif}.ic-chat{position:fixed;bottom:120px;right:1%;z-index:99999}", ""]);
+exports.push([module.i, ":root{--primary:#00aa9b;--secondary:#232d4b;--accent:#82b1ff}.ic-w10{width:10%}.ic-w20{width:20%}.ic-w30{width:30%}.ic-w40{width:40%}.ic-w50{width:50%}.ic-w60{width:60%}.ic-w70{width:70%}.ic-w80{width:80%}.ic-w90{width:90%}.ic-w100{width:100%}.ic-h20{width:20%}.ic-h40{width:40%}.ic-h60{width:60%}.ic-h80{width:80%}.ic-h100{width:100%}.ic-m1{margin:2%}.ic-m2{margin:4%}.ic-m3{margin:6%}.ic-p1{padding:2%}.ic-p2{padding:4%}.ic-p3{padding:6%}.ic-flex{display:flex}.ic-justify-center{justify-content:center}.ic-justify-end{justify-content:flex-end}.ic-justify-start{justify-content:flex-start}.ic-align-center{align-items:center}.ic-align-end{align-items:flex-end}.ic-align-start{align-items:flex-start}.ic-rtl{direction:rtl}.ic-primary{color:var(--primary)}.ic-secondary{color:var(--secondary)}.ic-white{color:#fff}.ic-bg-primary{background-color:var(--primary)}.ic-bg-secondary{background-color:var(--secondary)}.ic-bg-error{background-color:#ff5252}.ic-f14{font-size:14px}.ic-f16{font-size:16px}.ic-f18{font-size:18px}.ic-f20{font-size:20px}.ic-f22{font-size:22px}.ic-f24,.ic-f26,.ic-f28{font-size:24px}.ic-card{height:480px;width:360px;box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)}.ic-card-title{padding:10px;border-radius:4px 4px 0 0;height:50px;font-size:24px;text-align:left;background-color:var(--primary);color:#fff}.ic-card-login,.ic-card-title{display:flex;justify-content:center;align-items:center}.ic-card-login{height:450px;background-color:var(--secondary);border-radius:0 0 4px 4px}.ic-card-text{height:360px;overflow-y:auto;background-color:#fff}.ic-card-actions{display:flex;align-content:center;border-radius:0 0 4px 4px;background-color:var(--secondary);height:60px}.ic-avatar{vertical-align:middle;width:50px;height:50px;border-radius:50%}.ic-button{color:#fff;text-transform:uppercase;text-decoration:none;background:var(--primary);border-radius:5px;font-size:25px;display:inline-block;border:none;align-content:right;transition:all .2s ease 0s}.ic-button:hover{opacity:.85;transition:all .2s ease 0s;cursor:pointer}.ic-file{opacity:.5;color:#eee}.ic-file:hover{opacity:.9;color:var(--primary);cursor:pointer}.ic-message-l-title{font-weight:700;color:var(--secondary)}.ic-message-l-title-icon{color:var(--primary);font-size:10px}.ic-message-l-text{background-color:var(--primary);padding:3%;color:#fff;border-radius:0 12px 12px 12px}.ic-message-l-date{font-size:11px;color:var(--secondary);font-weight:700;opacity:.8}.ic-message-r-title{direction:rtl;font-weight:700;color:var(--primary)}.ic-message-r-title-icon{color:var(--secondary);font-size:10px}.ic-message-r-text{background-color:var(--secondary);padding:3%;color:#fff;border-radius:12px 0 12px 12px}.ic-message-r-date{font-size:11px;opacity:.8;color:var(--secondary);font-weight:700;text-align:right}.ic-show-image{z-index:10;width:100%;display:flex;align-content:center;background-color:#969696;border-radius:10px}.ic-img{background-color:#eee;display:inline-block;max-height:100%;max-width:100%;height:70px;width:70px;-o-object-fit:scale-down;object-fit:scale-down;border-radius:0!important}.ic-widgetStyle{position:fixed;bottom:0;right:10px;cursor:pointer}.slide-fade-enter-active{transition:all .4s ease}.slide-fade-leave-active{transition:all .3s cubic-bezier(1,.5,.8,1)}.slide-fade-enter,.slide-fade-leave-to{transform:translateX(15px);opacity:0}button:disabled,button[disabled]{border:1px solid #999;background-color:#ccc;color:#666;cursor:default!important}.input{font-size:16px;font-size:Max(16px,1em);font-family:inherit;padding:.25em .5em;background-color:#fff;border:2px solid #9c8d9c;border-radius:4px;transition:box-shadow .18s ease-in-out}.input:focus{border-color:var(--primary);outline:2px solid transparent}.input:not(textarea){line-height:1;height:2.25rem}input[type=file]{font-size:.9em;padding-top:.35rem}textarea.input{resize:vertical}.input[readonly]{border-style:dotted;cursor:not-allowed;color:#777}.input[disabled]{background-color:#eee;cursor:not-allowed}label{font-size:1.125rem;font-weight:500;line-height:1}.input+label{margin-top:2rem}input[type=file]{position:absolute;opacity:0;z-index:-1}.ic-scroll-chat{display:flex;flex-direction:column-reverse}.ic-scroll::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);background-color:#f5f5f5}.ic-scroll::-webkit-scrollbar{width:6px;background-color:#f5f5f5}.ic-scroll::-webkit-scrollbar-thumb{background-color:var(--primary)}.lds-ring{display:flex;justify-content:center;align-items:center;position:relative;width:100%;height:100%}.lds-ring div{box-sizing:border-box;display:block;position:absolute;width:64px;height:64px;margin:8px;border:8px solid #999797;border-radius:50%;-webkit-animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;border-color:#999797 transparent transparent transparent}.lds-ring div:first-child{-webkit-animation-delay:-.45s;animation-delay:-.45s}.lds-ring div:nth-child(2){-webkit-animation-delay:-.3s;animation-delay:-.3s}.lds-ring div:nth-child(3){-webkit-animation-delay:-.15s;animation-delay:-.15s}@-webkit-keyframes lds-ring{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes lds-ring{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}.lds-ellipsis{display:inline-block;position:relative;width:10px;height:10px}.lds-ellipsis div{position:absolute;width:8px;height:8px;border-radius:50%;background:#fafafa;-webkit-animation-timing-function:cubic-bezier(0,1,1,0);animation-timing-function:cubic-bezier(0,1,1,0)}.lds-ellipsis div:first-child{left:5px;-webkit-animation:lds-ellipsis1 .6s infinite;animation:lds-ellipsis1 .6s infinite}.lds-ellipsis div:nth-child(2){left:5px}.lds-ellipsis div:nth-child(2),.lds-ellipsis div:nth-child(3){-webkit-animation:lds-ellipsis2 .6s infinite;animation:lds-ellipsis2 .6s infinite}.lds-ellipsis div:nth-child(3){left:29px}.lds-ellipsis div:nth-child(4){left:53px;-webkit-animation:lds-ellipsis3 .6s infinite;animation:lds-ellipsis3 .6s infinite}@-webkit-keyframes lds-ellipsis1{0%{transform:scale(0)}to{transform:scale(1)}}@keyframes lds-ellipsis1{0%{transform:scale(0)}to{transform:scale(1)}}@-webkit-keyframes lds-ellipsis3{0%{transform:scale(1)}to{transform:scale(0)}}@keyframes lds-ellipsis3{0%{transform:scale(1)}to{transform:scale(0)}}@-webkit-keyframes lds-ellipsis2{0%{transform:translate(0)}to{transform:translate(24px)}}@keyframes lds-ellipsis2{0%{transform:translate(0)}to{transform:translate(24px)}}*{font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif}.ic-chat{position:fixed;bottom:120px;right:1%;z-index:99999}", ""]);
 // Exports
 module.exports = exports;
 
@@ -7913,36 +7922,10 @@ module.exports = (function() {
 
 /***/ }),
 
-/***/ "ad7f":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InetchatCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("6130");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InetchatCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InetchatCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InetchatCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InetchatCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
-
-/***/ }),
-
 /***/ "b01b":
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABACAYAAACeELDCAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGoWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA3LTAxVDE3OjAxOjEwKzAxOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIxLTA3LTAxVDIyOjIyOjMwKzAxOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wNy0wMVQyMjoyMjozMCswMTowMCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxZWI3OTQyOS0yODgyLTQ5NGYtYTc5YS01ZWY3YTYyMjkzNjciIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpkMDY4NmY1MS05YWMxLTI0NDAtOTdiNy0xMjU3NjAwYWIxMmEiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1M2VmMDQyZS04NDBiLTcxNGMtOTkxZS1lOTFlZTUyZWRkZGYiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo1M2VmMDQyZS04NDBiLTcxNGMtOTkxZS1lOTFlZTUyZWRkZGYiIHN0RXZ0OndoZW49IjIwMjEtMDctMDFUMTc6MDE6MTArMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE5IChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6OWMzOTFjYTktODRhYi1mYTRhLTlmZjAtNDBlYzQ3NDU3NTQ4IiBzdEV2dDp3aGVuPSIyMDIxLTA3LTAxVDE3OjAxOjEwKzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjFlYjc5NDI5LTI4ODItNDk0Zi1hNzlhLTVlZjdhNjIyOTM2NyIgc3RFdnQ6d2hlbj0iMjAyMS0wNy0wMVQyMjoyMjozMCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pg2A+ZoAAAUUSURBVHja7Zx7aFZlHMdfKV3aTFPLvFDmNrcyIgpNpIvpbLmRFVlQahlWXipaGQnpoOxihGOVt6x1G12MLSG6gCDkJTAqWEWyWjmsQbWiIspMrD79cb6H/XZ49767vOfdec/7PPCD83tu5zmf85zn9nuekwASTsITB8EBdoATwPHAOqAxz2Q7UJkNwBcDh8hPtx0YEibgQcA35LdbHibgE3CuLuwm4hpgEbAwxnIdcAdwIAngx8IEPB2YBIyLuUwAhuqZNwcAPxoG4OOAN/OwOajW8x8IG3BlHre5CeDOsAEvy2PAY9TnhAr4ljwGPApYGjbgJQ6wA+wAO8AOcKQB7wc2AU8CG3NAaoFXgT9zAfCaHF7HPQNoizLgj2KwWD4vyoDrYgB4nAOcx4A/jAHgiqh3cvfnMNyJwNe5MEzbB2wAntAQKOqyHngZ+MNNNNxEwwF2gB1gBzhs1wH8kkXpAI7lA+CngClAITAyi3IinoX8gTgDborIWHh9XAFfERHAZ8YV8CURAXxaXAHPjwjgkoEGXB0S4N0RAfzCQAM+z5iD6tJIrUwyW4HvewD5ba1mlQJTgXOyJKXApUB9FEYRfZWdbqKRWjbJJPRBL+QT4G6l3xtDwI9nEvCXfSzUKzEGXJdJwLv7WKinYwR4eKCTL3eAM+sm4m3f3QUsJsOnjBxgmNNTXg5w39z0MAF/248VsgTQnuNw38c7eBka4JvwTnXWBGSthm/duS1Kf3M36aMu64Dbessr05OIR1IAfo7c3ysx4IfBt6QA/KwD7ADHBnARcBEwLEsPWgrMBs4P+J+scoyJG+AG+Z2bofvO1QrYqID/bOCzQDlagcvouv/sxn7cexveEdusAN6WAvDzJt4z8puaofuuVX6jjd+V5t41ms7eF1hPKNP15f24N8DHvQE8VvaoImCykSKgmM7zusmkIQXg1008/6zvFOn1gl6llbfP8U5S2ryLgR3AQa0XT5b/auBX5deuYWQCz/z+L95udZtPmfIeClyodIvxDnQfwvv/g01zthbf21S26+U/HPhC6f8CWvA2bacF3AgcUcL/jPhubgrAZao55QGZD5yVBHCxdP9/E18Be4Cj0q8KmG9+10v8IbAm0CJ9p6BNk/5wmto3R/GO4G1U3GOaET/Ob3hnNurNJOtqvLPaL0r/UU3gtJ4AfifNTGZeBj5pH3CJ9GbgMDBC+niF10pvxdsUYvNop3Mfsn/qdLD0GulVacoxK8mLaJLfCGNdtmmOqiLYJqKxN01EI/B3CsBzQwDcBnxnwocpfI15iIPAG6oAjXTuwEkAK3RdJH2h9FVpylGueLOM3wb5FUqfr6ajBXhIX09zAPC7UQfcKludH36Kwlebh+iQTa8ReE3w/F+5rFKck6SPlv5zkj5jpL7CAmCm4l1rwreaF+eHb5St7na92H0BwE25Ctg3xeySPtbEucBcP6jwCgN0pYG8AG9LVCXwk/xPNW17d4CX63q8Cf8H+DQAeL9GJQU9AfxWmja4IgOAmwLDNPu5200fDdKHmGXOwxodHFMNSwAzTPleMvncajpMTMe9iK5HtZaYNDvkV4C3V61Z+l7ljTo7WyF9V90TwO9loZObKZuW/0kvAG6g64+WliZZd61QbV2ZZFIxA7hLowjrP1gjm2pNKApN2ATdZ1KSstnauEztb4lGNrbGD9KLXGH6gJSAqzROvEeWYF+qgXuB0/NxTSEqU2UnDrADHCv5H7lRC53vqJf9AAAAAElFTkSuQmCC"
-
-/***/ }),
-
-/***/ "b0aa":
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, ".lds-ring{display:flex;justify-content:center;align-items:center;position:relative;width:100%;height:100%}.lds-ring div{box-sizing:border-box;display:block;position:absolute;width:64px;height:64px;margin:8px;border:8px solid #999797;border-radius:50%;-webkit-animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;border-color:#999797 transparent transparent transparent}.lds-ring div:first-child{-webkit-animation-delay:-.45s;animation-delay:-.45s}.lds-ring div:nth-child(2){-webkit-animation-delay:-.3s;animation-delay:-.3s}.lds-ring div:nth-child(3){-webkit-animation-delay:-.15s;animation-delay:-.15s}@-webkit-keyframes lds-ring{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes lds-ring{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}.lds-ellipsis{display:inline-block;position:relative;width:10px;height:10px}.lds-ellipsis div{position:absolute;width:8px;height:8px;border-radius:50%;background:#fafafa;-webkit-animation-timing-function:cubic-bezier(0,1,1,0);animation-timing-function:cubic-bezier(0,1,1,0)}.lds-ellipsis div:first-child{left:5px;-webkit-animation:lds-ellipsis1 .6s infinite;animation:lds-ellipsis1 .6s infinite}.lds-ellipsis div:nth-child(2){left:5px}.lds-ellipsis div:nth-child(2),.lds-ellipsis div:nth-child(3){-webkit-animation:lds-ellipsis2 .6s infinite;animation:lds-ellipsis2 .6s infinite}.lds-ellipsis div:nth-child(3){left:29px}.lds-ellipsis div:nth-child(4){left:53px;-webkit-animation:lds-ellipsis3 .6s infinite;animation:lds-ellipsis3 .6s infinite}@-webkit-keyframes lds-ellipsis1{0%{transform:scale(0)}to{transform:scale(1)}}@keyframes lds-ellipsis1{0%{transform:scale(0)}to{transform:scale(1)}}@-webkit-keyframes lds-ellipsis3{0%{transform:scale(1)}to{transform:scale(0)}}@keyframes lds-ellipsis3{0%{transform:scale(1)}to{transform:scale(0)}}@-webkit-keyframes lds-ellipsis2{0%{transform:translate(0)}to{transform:translate(24px)}}@keyframes lds-ellipsis2{0%{transform:translate(0)}to{transform:translate(24px)}}", ""]);
-// Exports
-module.exports = exports;
-
 
 /***/ }),
 
